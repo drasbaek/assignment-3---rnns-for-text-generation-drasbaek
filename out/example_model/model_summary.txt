@@ -1,0 +1,19 @@
+Number of comments used: 5000
+Number of epochs run: 75
+Model: "sequential" 
+_________________________________________________________________ 
+ Layer (type)                Output Shape              Param #    
+================================================================= 
+ embedding (Embedding)       (None, 284, 50)           1368700    
+                                                                  
+ lstm (LSTM)                 (None, 30)                9720       
+                                                                  
+ dropout (Dropout)           (None, 30)                0          
+                                                                  
+ dense (Dense)               (None, 27374)             848594     
+                                                                  
+================================================================= 
+Total params: 2,227,014 
+Trainable params: 858,314 
+Non-trainable params: 1,368,700 
+_________________________________________________________________ 
